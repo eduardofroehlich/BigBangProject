@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import BigBangLogo from './big-bang-logo.vue'
 import DashboardNav from './dashboard-nav.vue'
-import { faBell } from '@fortawesome/free-regular-svg-icons';
 </script>
 
 <template>

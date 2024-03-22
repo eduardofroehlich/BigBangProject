@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { useI18n } from 'vue-i18n';
-import { faBolt, faPlus } from '@fortawesome/free-solid-svg-icons';
-import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import Button from './button.vue';
 const { t } = useI18n();
 </script>
