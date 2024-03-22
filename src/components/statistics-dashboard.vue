@@ -32,5 +32,4 @@ const { t } = useI18n();
     receipts: Recebimentos
     profit: Lucro
     statistics_dashboard: Painel de estatísticas
-    last_days: últimos 7 dias
 </i18n>
