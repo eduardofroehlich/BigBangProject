@@ -6,10 +6,11 @@ import RecentTransactions from '../components/recent-transactions.vue'
 </script>
 
 <template>
-  <div class="h-screen w-screen">
+  <div class="h-screen">
     <div class="bg-primary h-4/6">
-      <DashboardHeader />
-
+      <div>
+        <DashboardHeader />
+      </div> 
       <div>
         <BalanceResume />
       </div>
