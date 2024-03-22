@@ -15,7 +15,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "vue": "^3.4.21",
-    "vue-i18n": "^9.10.2"
+    "vue-i18n": "^9.10.2",
+    "vue-iconsax": "^1.6.0"
   },
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^3.0.1",
