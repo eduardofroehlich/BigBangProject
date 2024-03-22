@@ -4,16 +4,23 @@ import Button from './button.vue';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
+export interface Props {
+    title?: string;
+    value?: string;
+}
+
+defineProps<Props>();
+
 const { t } = useI18n();
 </script>
 
 <template>
     <div class="card-container">
         <div class="text-sm">
-            {{ t('account_pj') }}
+            {{ title }}
         </div>
         <div class="text-2xl pt-6">
-            {{ t('currency', {value: '39,882'}) }}
+            {{ t('currency', {value}) }}
         </div>
         <div class="flex pt-11">
             <Button class="w-64" variant="secondary-transparent">
@@ -40,6 +47,5 @@ const { t } = useI18n();
 </style>
 
 <i18n lang="yaml" locale="pt_BR">
-    account_pj: Conta PJ
     more_details: Ver mais detalhes
 </i18n>
