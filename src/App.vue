@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import DashboardView from './views/DashboardView.vue'
 </script>
 
 <template>
-  <div class="">
-    <FontAwesomeIcon :icon="faEnvelope" />
+  <div>
+    <DashboardView />
   </div>
 </template>
