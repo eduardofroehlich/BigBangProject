@@ -29,8 +29,8 @@ const { t } = useI18n();
                 </div>
             </Button>
             <Button class="w-20 ml-4" variant="secondary-transparent">
-                <div class="text-[#292D32]">
-                    <FontAwesomeIcon :icon=faBars class="" />
+                <div class="flex justify-center">
+                    <VsxIcon iconName="HambergerMenu" color="#292D32" size="24" />
                 </div>
             </Button>
         </div>

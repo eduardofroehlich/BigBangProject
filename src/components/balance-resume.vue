@@ -13,12 +13,14 @@ const { t } = useI18n();
             {{ t('total_balance') }}
         </div>
         <div class="flex items-center justify-between">
-            <div>
+            <div class="flex items-center">
                 <span class="text-white text-4xl" >
                     {{ t('currency', { value:'304,78' }) }}
                 </span>
-                <FontAwesomeIcon :icon=faBolt class="text-yellow-300 text-2xl px-4" />
-                <span class="text-white text-sm font-normal" >
+                <div class="pl-4">
+                    <VsxIcon iconName="Flash" :size="24" color="#FFF500" />
+                </div>
+                <span class="text-white text-sm font-normal pl-2" >
                     {{ t('yielding', { value: 124 }) }}
                 </span>
             </div>
@@ -26,7 +28,7 @@ const { t } = useI18n();
                 <Button class="mr-5">
                     <div class="flex items-center w-52 mx-6">
                         <div class="text-white pr-10">
-                            <FontAwesomeIcon :icon=faPaperPlane class="text-xl"/>
+                            <VsxIcon iconName="Send2" :size="22" color="#FFFFFF" type="linear" />
                         </div>
                         <div class="text-sm">
                             {{ t('send_money') }}
@@ -36,7 +38,7 @@ const { t } = useI18n();
                 <Button>
                     <div class="flex items-center mx-6">
                         <div class="text-white">
-                            <FontAwesomeIcon :icon=faPlus class="text-xl"/>
+                            <VsxIcon iconName="Add" :size="22" color="#FFFFFF" type="linear" />
                         </div>
                     </div>
                 </Button>

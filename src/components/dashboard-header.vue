@@ -14,7 +14,7 @@ import { faBell } from '@fortawesome/free-regular-svg-icons';
       <DashboardNav />
     </div>
     <div class="text-end">
-      <FontAwesomeIcon :icon=faBell class="text-white text-2xl" />
+      <VsxIcon iconName="Notification" :size="24" color="#FFFFFF" type="linear" />
     </div>
   </div>
 </template>
