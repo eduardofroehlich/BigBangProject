@@ -1,5 +1,5 @@
 export const pt_BR = {
-    currency: 'R$',
+    currency: 'R${value}',
     percentage: '%',
     yes: 'Sim',
     no: 'Não',
