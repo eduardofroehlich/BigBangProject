@@ -8,18 +8,15 @@ import RecentTransactions from '../components/recent-transactions.vue'
 <template>
   <div class="h-screen">
     <div class="bg-primary h-4/6">
-      <div>
-        <DashboardHeader />
-      </div> 
-      <div>
-        <BalanceResume />
-      </div>
+      <DashboardHeader />
+
+      <BalanceResume />
 
       <div class="flex justify-center pt-10">
         <StatisticsDashboard />
       </div>
 
-      <div class="flex justify-center pt-10">
+      <div class="flex justify-center pt-10 gap-20">
         <RecentTransactions />
       </div>
     </div>

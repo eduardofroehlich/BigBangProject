@@ -18,7 +18,7 @@ const { t } = useI18n();
                 {{  t('see_all') }}
             </div>
         </div>
-        <div class="pt-7 pb-60">
+        <div class="pt-7">
             <TransactionItem :title="t('mercadinho')" :value="'10,98'" variant="yellow" />
             <TransactionItem :title="t('tenda')" :value="'26,38'"  variant="red"/>
             <TransactionItem :title="t('farmacia')" :value="'43,17'"  variant="green" />
