@@ -17,7 +17,7 @@ import GeneralAnalysis from '../components/analysis/general-analysis.vue'
         <StatisticsDashboard />
       </div>
 
-      <div class="flex justify-center pt-10 gap-20 pb-10">
+      <div class="flex justify-center pt-10 gap-40 pb-10">
         <RecentTransactions />
         <GeneralAnalysis />
       </div>
