@@ -3,6 +3,7 @@ import DashboardHeader from '../components/dashboard-header.vue'
 import BalanceResume from '../components/balance-resume.vue'
 import StatisticsDashboard from '../components/statistics-dashboard.vue'
 import RecentTransactions from '../components/recent-transactions.vue'
+import GeneralAnalysis from '../components/general-analysis.vue'
 </script>
 
 <template>
@@ -16,8 +17,9 @@ import RecentTransactions from '../components/recent-transactions.vue'
         <StatisticsDashboard />
       </div>
 
-      <div class="flex justify-center pt-10 gap-20">
+      <div class="flex justify-center pt-10 gap-20 pb-10">
         <RecentTransactions />
+        <GeneralAnalysis />
       </div>
     </div>
   </div>
