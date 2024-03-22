@@ -15,6 +15,7 @@ export default {
       backgroundColor: {
         'primary': '#202027',
         'secondary': '#FF6969',
+        'button': '#7986FE',
       },
       borderColor:{
         'secondary': '#FF6969',
