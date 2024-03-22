@@ -1,9 +1,16 @@
-# Vue 3 + TypeScript + Vite
+# Projeto Big Bang
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este projeto tem como objetivo reproduzir uma tela de interface de usuário criada no Figma. O objetivo é demonstrar minhas habilidades de desenvolvimento e design de interface.
 
-## Recommended Setup
+## Descrição
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+O Repositório Big Bang é uma oportunidade para explorar e praticar conceitos de design de interface e desenvolvimento web. A tela que será reproduzida foi criada no Figma e servirá como referência para a implementação.
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Tecnologias Utilizadas
+
+- Vue.JS
+- Node.JS
+- Typescript
+- Javascript
+- TailwindCSS
+- FontAwesome
