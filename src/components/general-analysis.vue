@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import TransactionItem from './transaction-item.vue';
+import AnalysisItem from './analysis-item.vue';
 const { t } = useI18n();
 </script>
 
@@ -36,8 +36,10 @@ const { t } = useI18n();
                 </div>
             </div>
         </div>
-        <div class="pt-7">
-            <TransactionItem :title="t('mercadinho')" :value="'10,98'" variant="yellow" />
+        <div class="pt-3.5">
+            <AnalysisItem :title="t('purchases')" :value="'62'" variant="red" iconName="Bag" />
+            <AnalysisItem :title="t('purchases')" :value="'14'" variant="purple" iconName="Barcode" />
+            <AnalysisItem :title="t('purchases')" :value="'5'" variant="pink" iconName="TrendUp" />
         </div>
     </div>
 </template>
@@ -46,7 +48,7 @@ const { t } = useI18n();
     general_analysis: Análise geral
     earnings: Ganhos
     exits: Saídas
-    farmacia: Fármacia Um
-    academia: Academia Body
-    shop_online: ShopOnline
+    purchases: Compras
+    slip: Boleto
+    investments: Investimentos
 </i18n>
