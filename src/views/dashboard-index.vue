@@ -4,7 +4,9 @@ import DashboardHeader from '../components/dashboard-header.vue'
 
 <template>
   <div class="h-screen w-screen">
-    <DashboardHeader />
+    <div class="bg-primary h-2/5">
+      <DashboardHeader />
+    </div>
   </div>
 </template>
 

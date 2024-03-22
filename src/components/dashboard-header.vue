@@ -6,7 +6,7 @@ import { faBell } from '@fortawesome/free-regular-svg-icons';
 </script>
 
 <template>
-  <div class="bg-primary w-full h-2/5 flex justify-between p-5">
+  <div class="w-full flex justify-between p-5">
     <div class="">
       <BigBangLogo />
     </div>
