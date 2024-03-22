@@ -2,6 +2,7 @@
 import DashboardHeader from '../components/dashboard-header.vue'
 import BalanceResume from '../components/balance-resume.vue'
 import StatisticsDashboard from '../components/statistics-dashboard.vue'
+import RecentTransactions from '../components/recent-transactions.vue'
 </script>
 
 <template>
@@ -15,6 +16,10 @@ import StatisticsDashboard from '../components/statistics-dashboard.vue'
 
       <div class="flex justify-center pt-10">
         <StatisticsDashboard />
+      </div>
+
+      <div class="flex justify-center pt-10">
+        <RecentTransactions />
       </div>
     </div>
   </div>
