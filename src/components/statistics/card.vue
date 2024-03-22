@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import Button from './button.vue';
+import Button from '../button.vue';
 
 export interface Props {
     title?: string;
